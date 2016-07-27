@@ -1,0 +1,28 @@
+<project>
+	<build>
+		<plugins>
+		<plugin>
+		  <groupId>org.apache.maven.plugins</groupId>
+		  <artifactId>maven-compiler-plugin</artifactId>
+		  <configuration>
+		    <compilerVersion>1.5</compilerVersion>
+		    <source>1.5</source>
+		    <target>1.5</target>
+		  </configuration>
+		</plugin>
+		</plugins>
+	</build>
+  <groupId>edu.berkeley</groupId>
+  <artifactId>gospark-init</artifactId>
+  <modelVersion>4.0.0</modelVersion>
+  <name>Gospark Init</name>
+  <packaging>jar</packaging>
+  <version>1.0</version>
+  <dependencies>
+    <dependency> <!-- Spark dependency -->
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-core_2.10</artifactId>
+      <version>1.6.2</version>
+    </dependency>
+  </dependencies>
+</project>
