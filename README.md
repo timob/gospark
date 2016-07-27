@@ -31,7 +31,7 @@ First edit the code in example/simple.go and change "YOUR_SPARK_HOME/README.md",
 in your spark install dir. The example counts lines in this file.
 
 Steps to build shared library with gospark code that will be called from Java:
-(note you man need to change the include path for jni.h)
+(note you may need to change the include path for jni.h)
 
 ````
 cd example
