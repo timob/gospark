@@ -3,10 +3,10 @@ gospark
 
 Go bindings for Apache Spark (https://spark.apache.org).
 
-####Changes
+#### Changes
 * 2016-07-27: First very alpha version.
 
-####Example
+#### Example
 This is a Spark example from the quick start documentation: https://spark.apache.org/docs/latest/quick-start.html
 
 ```` go
@@ -26,7 +26,7 @@ func start(envPtr unsafe.Pointer) {
 } 
 ````
 
-#####Building example
+##### Building example
 First edit the code in example/simple.go and change "YOUR_SPARK_HOME/README.md", to the path of the readme
 in your spark install dir. The example counts lines in this file.
 
